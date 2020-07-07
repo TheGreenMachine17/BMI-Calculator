@@ -1,0 +1,52 @@
+
+.needs-validation {
+	background-color: pink;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.col-md-1.mb-1 {
+	
+	display: inline-block;
+	margin: auto;
+	width: 200%;
+	
+}
+
+.btn.btn-primary {
+	position: relative;
+	display: block;
+	margin: auto;
+}
+
+
+@media only screen and (max-width: 768px) {
+	.col-md-1.mb-1 {
+		display: block;
+		margin: auto;
+		width: 50%;
+	}
+}
+
+th, td {
+	border-collapse: collapse;
+	border: 1px solid black;
+	text-align: center;
+	height: 80px;
+	width: 130px;
+}
+
+#resultsPage {
+	float: left;
+	padding-left: 22px;
+
+}
+
+
+#paragraphDiv {
+	float: left;
+	position: absolute;
+	left: 290px;
+}
+
+
