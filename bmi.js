@@ -303,7 +303,7 @@ function displayResults()
     var info22 = document.createTextNode("Weight: " + lbs + " pounds");
     infoo.appendChild(info22);
 
-    var elemenn = document.getElementById("mainPage");
+    var elemenn = document.getElementById("paragraphDiv");
     elemenn.appendChild(infoo);
 
     //second paragraph
@@ -334,4 +334,3 @@ function displayResults()
     element4.appendChild(para4); 
   }
 }
-

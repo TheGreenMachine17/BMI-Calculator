@@ -1,11 +1,13 @@
-
 .needs-validation {
-	background-color: pink;
-	padding-top: 20px;
-	padding-bottom: 20px;
+	background-color: rgb(210, 210, 224);
+	display: block;
+	margin: auto;
+	padding-top: 8px;
+	padding-bottom: 11px;
+	
 }
 
-.col-md-1.mb-1 {
+.col-md-3.mb-3 {
 	
 	display: inline-block;
 	margin: auto;
@@ -13,15 +15,17 @@
 	
 }
 
-.btn.btn-primary {
+.btn.btn-dark {
 	position: relative;
 	display: block;
 	margin: auto;
+	padding-top: 7px;
+	
 }
 
 
 @media only screen and (max-width: 768px) {
-	.col-md-1.mb-1 {
+	.col-md-3.mb-3 {
 		display: block;
 		margin: auto;
 		width: 50%;
@@ -38,7 +42,8 @@ th, td {
 
 #resultsPage {
 	float: left;
-	padding-left: 22px;
+	padding-left: 35px;
+	padding-top: 30px;
 
 }
 
@@ -46,7 +51,6 @@ th, td {
 #paragraphDiv {
 	float: left;
 	position: absolute;
-	left: 290px;
+	left: 310px;
+	padding-top: 30px;
 }
-
-
